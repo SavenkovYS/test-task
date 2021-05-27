@@ -120,10 +120,10 @@ function CallDoctorData() {
                 <div>
                     <label className={classes.Label}>Введите Ваш адрес</label>
                         <AddressSuggestions 
-                        token="e7d57dfbfd90e3817dd37d568d7819d2bd160b82" 
-                        value={addressInput} 
-                        onChange={setAddressInput} 
-                    />
+                            token="e7d57dfbfd90e3817dd37d568d7819d2bd160b82" 
+                            value={addressInput} 
+                            onChange={setAddressInput} 
+                        />
                 </div>
                 
                 <Input

@@ -1,0 +1,38 @@
+.CallDoctor {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CallDoctor > div {
+    margin-bottom: 20px;
+}
+
+.Label {
+    display: block;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+}
+
+.Submit {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 10px 20px;
+    background-color: rgb(241, 169, 34);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.Error {
+    color: red;
+}
